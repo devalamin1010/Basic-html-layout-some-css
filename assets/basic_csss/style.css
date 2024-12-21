@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+header{
+  background-color:#3ca4a2;
+  padding: 20px;
+}
+header img {
+  width: 180px;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+header ul{
+  text-align: center;
+  margin-top: 10px;
+
+}
+header ul li{
+  display: inline-block;
+  margin: 10px 10px;
+
+}
+header ul li a{
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: capitalize;
+  background: #fff;
+  color: #000000;
+  padding: 8px 5px;
+  border-radius: 20px 0px 20px 0px;
+  transition: 0.8s;
+}
+header ul li a:hover{
+  background: #3ca4a2;
+  color: #fff;
+ 
+}
+
+/* banner css code start */
+section{
+  display: flex;
+}
+.banner{
+  width: 55%;
+  height: auto;
+  background: url(/assets/img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0px ;
+  overflow: hidden;
+}
+.banner h1{
+  color: #fff;
+  font-size: 55px;
+  display: block;
+  text-align: center;
+
+}
+aside{
+  width: 45%;
+  text-align: center;
+  
+}
+aside h2{
+  font-size: 35px;
+}
+aside ul{
+  display: inline-block;
+
+}
+aside ul li {
+  list-style: none;
+  text-align: center;
+}
+aside ul li a{
+  display:block;
+  text-decoration: none;
+  margin: 30px 0px ;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  color: #000000;
+  text-transform: capitalize;
+  border-collapse: collapse;
+}
+/* banner css code end */
+/* footer  css code start */
+div{
+  background: #3ca4a2;
+  padding: 20px 10px ;
+}
+div h3{
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+/* footer  css code end */
